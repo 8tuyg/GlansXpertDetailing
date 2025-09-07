@@ -1,1 +1,1 @@
-# ShinePro-Detailing
+# GlanseXpert Detailing
