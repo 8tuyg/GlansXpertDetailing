@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShinePro Detailing</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #111;
+      margin-bottom: 20px;
+    }
+    .diensten {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      flex: 1;
+      min-width: 250px;
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    form input, form textarea, form button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #111;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ShinePro Detailing</h1>
+    <nav>
+      <a href="#diensten">Diensten</a>
+      <a href="#over">Over mij</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="diensten">
+    <h2>Onze Diensten</h2>
+    <div class="diensten">
+      <div class="card">
+        <h3>Buitenreiniging</h3>
+        <p>Professionele reiniging van het exterieur met oog voor detail. Verwijdert vuil, aanslag en laat de lak weer stralen.</p>
+        <strong>€10</strong>
+      </div>
+      <div class="card">
+        <h3>Complete Reiniging</h3>
+        <p>Grondige reiniging van zowel interieur als exterieur. Uw auto krijgt een frisse look van binnen én van buiten.</p>
+        <strong>€15</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="over">
+    <h2>Over ShinePro Detailing</h2>
+    <p>ShinePro Detailing is ontstaan vanuit een passie voor auto’s en precisie. Wat begon als hobby groeide uit tot een professioneel bedrijf dat zich richt op het leveren van topkwaliteit autoreiniging. Ons doel is om iedere auto de zorg en aandacht te geven die hij verdient.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="https://formspree.io/f/mjkbzzzb" method="POST">
+      <input type="text" name="naam" placeholder="Naam" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+      <textarea name="bericht" placeholder="Bericht" rows="5" required></textarea>
+      <button type="submit">Verstuur</button>
+    </form>
+    <p>Of stuur ons direct een e-mail: <a href="mailto:deyon0976@gmail.com">deyon0976@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ShinePro Detailing - Alle rechten voorbehouden</p>
+  </footer>
+</body>
+</html>
